@@ -4,14 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4127c050-14df-4004-b443-b534cabc2fd9" name="Changes" comment="" />
+    <list default="true" id="4127c050-14df-4004-b443-b534cabc2fd9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Api/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selectors/ForgotPassPageSelectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selectors/LoginPageSelectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selectors/MainPageSelectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selectors/ProfilePageSelectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selectors/RegisterPageSelectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/Authorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/ContentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/EndPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LogoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RedirectToMainPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RedirectToProfileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SectionsMainPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/createUser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/loginUser.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2awiRUAk9PwBuhlpDmPAIqxh46s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,9 +57,86 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/offpi/IdeaProjects/Diplom-2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\offpi\IdeaProjects\Diplom-3\src\test\java\resources" />
+      <recent name="C:\Users\offpi\IdeaProjects\Diplom-3\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="Api" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SectionsMainPageTest.ActivationFillingsSection">
+    <configuration name="LogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogoutTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest.failTipRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegisterTest" />
+      <option name="METHOD_NAME" value="failTipRegistration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SectionsMainPageTest.ActivationBunsSection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SectionsMainPageTest" />
+      <option name="METHOD_NAME" value="ActivationBunsSection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SectionsMainPageTest.ActivationFillingsSection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SectionsMainPageTest" />
+      <option name="METHOD_NAME" value="ActivationFillingsSection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SectionsMainPageTest.ActivationSaucesSection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SectionsMainPageTest" />
+      <option name="METHOD_NAME" value="ActivationSaucesSection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SectionsMainPageTest.ActivationFillingsSection" />
+        <item itemvalue="JUnit.SectionsMainPageTest.ActivationBunsSection" />
+        <item itemvalue="JUnit.SectionsMainPageTest.ActivationSaucesSection" />
+        <item itemvalue="JUnit.RegisterTest.failTipRegistration" />
+        <item itemvalue="JUnit.LogoutTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +147,16 @@
       <updated>1705236035066</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
