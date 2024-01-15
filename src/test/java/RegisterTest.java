@@ -43,6 +43,7 @@ public class RegisterTest {
                 .inputText(registerPageSelectors.getPasswordField(), "123456Qa")
                 .click(registerPageSelectors.getRegisterButton());
         assertEquals("Вход", webDriver.findElement(loginPageSelectors.getLogoPage()).getText());
+        userClient.deleteUser();
     }
 
     @DisplayName("Тест на проверку подсказки пароля при регистрации пользователя")
@@ -63,6 +64,5 @@ public class RegisterTest {
     @After
     public void teardown() {
         webDriver.quit();
-        userClient.deleteUser();
     }
 }

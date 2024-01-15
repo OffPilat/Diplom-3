@@ -4,14 +4,13 @@ import jdk.jfr.Description;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class SectionsMainPageTest {
     private WebDriver webDriver;
@@ -35,7 +34,7 @@ public class SectionsMainPageTest {
                 .open(mainPageSelectors.URL_MAIN_PAGE)
                 .click(mainPageSelectors.getSaucesButton())
                 .click(mainPageSelectors.getBunsButton());
-        assertNotNull(By.xpath(".//div[contains (@class, 'tab_tab_type_current')]/span[contains (text(), 'Булки')]"));
+        assertTrue((steps.find(mainPageSelectors.getBunsButtonActive()).isDisplayed()));
     }
 
     @DisplayName("Тест на проверку активности раздела Соусы")
@@ -47,7 +46,7 @@ public class SectionsMainPageTest {
         steps
                 .open(mainPageSelectors.URL_MAIN_PAGE)
                 .click(mainPageSelectors.getSaucesButton());
-        assertNotNull(By.xpath(".//div[contains (@class, 'tab_tab_type_current')]/span[contains (text(), 'Соусы')]"));
+        assertTrue((steps.find(mainPageSelectors.getSaucesButtonActive()).isDisplayed()));
 
     }
 
@@ -60,7 +59,7 @@ public class SectionsMainPageTest {
         steps
                 .open(mainPageSelectors.URL_MAIN_PAGE)
                 .click(mainPageSelectors.getFillingsButton());
-        assertNotNull(By.xpath(".//div[contains (@class, 'tab_tab_type_current')]/span[contains (text(), 'Ингредиенты')]"));
+        assertTrue((steps.find(mainPageSelectors.getFillingsButtonActive()).isDisplayed()));
     }
 
     @After
