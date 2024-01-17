@@ -20,9 +20,9 @@ public class Steps {
 
     @Step("Поиск элемента")
     public WebElement find(By element) {
-        WebElement new_element = webDriver.findElement(element);
-        ((JavascriptExecutor) webDriver).executeScript("arguments[0].scrollIntoView();", new_element);
-        return new_element;
+        WebElement newElement = webDriver.findElement(element);
+        ((JavascriptExecutor) webDriver).executeScript("arguments[0].scrollIntoView();", newElement);
+        return newElement;
     }
 
 

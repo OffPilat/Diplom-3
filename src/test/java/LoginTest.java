@@ -8,11 +8,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
+import static Driver.WebDriverCreator.createWebDriver;
 import static org.junit.Assert.assertEquals;
 
 public class LoginTest {
@@ -20,9 +19,7 @@ public class LoginTest {
 
     @Before
     public void setup() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        webDriver = new ChromeDriver(options);
+        webDriver = createWebDriver();
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 

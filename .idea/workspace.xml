@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4127c050-14df-4004-b443-b534cabc2fd9" name="Changes" comment="add UI-tests for redirection, registration, login, logout">
+    <list default="true" id="4127c050-14df-4004-b443-b534cabc2fd9" name="Changes" comment="fix test-classes SectionsMainPageTest and RegisterTest,">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Driver/WebDriverCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/1a3b5dc6-5c6c-47e2-af0d-08e982adc4c7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/2627c5b1-64a8-407e-8fc4-305d5c4ba6eb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/467d950a-14e1-48bf-b35a-eb9d3fbc0418-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/4810e797-ce4a-46e6-b092-8dee7653e488-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/4f79bdf7-9863-45e8-a659-c470ee1ecae9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/6b9dac2e-8f81-43cf-b4a7-f07b00ab9e2e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/84b26aed-28db-4770-8e51-ec839ea2e50f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/8d0da1b7-9eab-416f-ae9b-ea08cee21c30-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/ac9ec975-e995-4443-971b-2bb65c8b5962-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/d50a8e02-3fce-4cff-b0c5-5dec394a3d28-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/e7b2a91b-1fca-4582-8489-f2606a016d74-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/ea2c63a3-f747-4a12-a3dc-7788b1b58ab1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/f0e0a1e3-2c14-43a1-a1e2-7af5abd3975b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/f70f287f-1c96-4639-ad3c-7ae977bb095f-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SectionsMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SectionsMainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/EndPoints.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +50,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/offpi/IdeaProjects/Diplom-2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/offpi/IdeaProjects/Diplom-2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\offpi\IdeaProjects\Diplom-3\src\test\java\resources" />
@@ -57,7 +73,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RegisterTest">
+  <component name="RunManager" selected="JUnit.SectionsMainPageTest">
     <configuration name="RegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom-3" />
       <option name="PACKAGE_NAME" value="" />
@@ -108,9 +124,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SectionsMainPageTest" />
         <item itemvalue="JUnit.RegisterTest" />
         <item itemvalue="JUnit.RegisterTest.failTipRegistration" />
-        <item itemvalue="JUnit.SectionsMainPageTest" />
         <item itemvalue="JUnit.SectionsMainPageTest.ActivationBunsSection" />
         <item itemvalue="JUnit.SectionsMainPageTest.ActivationFillingsSection" />
       </list>
@@ -132,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705260028730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix test-classes SectionsMainPageTest and RegisterTest">
+      <created>1705324316377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705324316377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add UI-tests for redirection, registration, login, logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="add UI-tests for redirection, registration, login, logout" />
+    <MESSAGE value="fix test-classes SectionsMainPageTest and RegisterTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix test-classes SectionsMainPageTest and RegisterTest" />
   </component>
 </project>
